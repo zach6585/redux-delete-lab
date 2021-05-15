@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 
-class Band extends Component {
-
-  render() {
+const Band = props => {
     return(
       <div>
-        Band Component
+        <p>{props.band.name}</p>
       </div>
     );
   }
-};
+
 
 export default Band;
